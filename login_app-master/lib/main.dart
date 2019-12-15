@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: MainPage(),
       theme: ThemeData(
-        accentColor: Color(0xffbbc91a),
-        primaryColor: Color(0xffbbc91a),
+        accentColor: Color(0xffbbc91a), //circular progress colour
+        primaryColor: Color(0xffbbc91a), //app bar colour etc
       ),
     );
   }
